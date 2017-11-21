@@ -1,0 +1,52 @@
+1. Javascript multi paradimg bir dildir. Bunlardan object-oriented(prototype-based), imperative, functional ve event-drvien.
+
+
+
+2. Biz bir komputer programi yazarken yuksek seviyyeli programlama dillerinden istifade edirik. Bu diller insanlarin program yazmasi uchun basha dushule bilen dillerdir.
+Bu diller english veya bashqa dillerde sozlerden ve ifadelerden ibaretdir. Amma komputer bu diller basha dushe bilmir. Komputer yalniz ikili sistem olan 0 lari ve 1 leri basha 
+dushur, buna mashin kodu deyilir. Bnun uchun de biz program yazarken bize derleyiciler (compilers) ve tercumechiler (interpreters) lazim olur. Buna gore de 
+bir yuksek seviyye dilinde yazilan kod derleyici veya tercumechi terefinden mashin kodune chevrilir yeni komputerin basha dusheceyi bir dile.
+
+
+
+2.1 Tercumechi (interpreter) program run olundugu an kodlari mashin diline cheviren bir mexanizimdir. Kodu analiz etmeyi daha az vaxt alir amma ishleme sureti yavashdir.
+Ilk xetani verene qeder programi chevirmeye davam edir xetaya rast geldiyi an program dayanir beleiklede xetani tapmaq asanlashir.
+Phyten, Ruby kimi kimi programlama dilleri tercumechiden (enterpriter) istifade edir.
+
+
+2.2 Derleyici programin yazildigi anda kodlari mahsnin diline cheviren bir mexanizimdir. Derleyici yazilan kodu analiz etmeyi daha chox vaxt alir amma ishleme zamani daha suretli ishleyir.
+Derleyici xetalari yazilan kodlari comple etdikden sora gosterir buna gorede xetalarin gorunmesi nisbeten chetindir. 
+ 
+
+
+
+
+3. Bir chox programlama dillerdinde oldugu kimi javascriptde de deyishen (varibale) var . Deyishenler bir ad verilmish tutum kimi dushunule biler.
+Biz bu tutumlarda yeni deyishenlerde datalarimizi saxlayib ve sonra ona verdiyimiz ad ile chagiraraq ishlede bilerik. Javascriptde bir deyishen istifade etmek uchun evvelceden onu yaratmaq 
+lazimdir. Deyishenler (var) achar sozu ile mueyyen edilir. Javascriptde var achar sozu ile bir adda deyishenin yalniz birce defe mueyyen etmek olar. Yeni eyni adla olan deyisheni var achar sozu ile
+ikinci defe yaratmaq mumkun deyil. Javascript tipi olmayan bir dildir. Bunun menasi yeni biz bir deyishende her tipde deyer saxliya bilerik.
+Deyishenler adlari javascriptde olan achar sozler ile eyni ola  bilmez ve hemchinin deyishenin ilk herifleri reqem ile bashlaya bilmez
+eks halda xeta verecek mishalchun break, boolean, 123test kimi ve s. Javascript deyishenleri herfe duyarlidir.
+ 
+
+
+4. javascriptde iki cur deyishen teyin etme usulu var birincisi deyishenin qarshisina var achar sozu ile yazilir ne deyishenin adi verilir, ikncisi var achar sozunu  
+yazmadan birbasha deyishenin adini yazaraq deyishen teyin etmek mumkunur. Bunlar arasindaki ferq var ile deyishen teyin edtikde yaddasha hemin deyishen uchun bir yer ayrilir,
+amma birbasha deyishen adini yazib teyin etdikde qarshisina var yazmadan hemin deyishen teyin olununur ancaq yaddashda bunun uchun yer ayrilmir.
+
+
+5. javascript deyishenlerinin saxladigi deyerlerin tipleri vardir bunlar (boolean, null, undifined, number, string).
+Boolean tipi deyishenleri osunde yalniz true ya false saxliyir, null tipi deyishene null deyer verilir yeni deyishenin deyeri boshdur, undifined deyishen teyin edilib 
+amma hech bir deyer verilmeyib, number ozunde reqem saxlayan bir tipdir, string deyishende ozunde bir neche karakterden iparet ifade veya soz birleshmesinini saxlayir,
+string tipinde saxlanilan reqemlerde string olaraq saxlanilir string tipinde bir deyishen teyin ederken var achar sozu yazilir sonra deyishenin adin ve sonra 
+deyishene verilen deyer cut qirnaq ("") veya tek dirnaq ichinde yazilir ('').
+
+
+6. javascript funksiyalri ozunde bir veya bir neche yerine yetirilmeli emirler saxlayan kod blokudur. Eger bir proyektin birden chox sehifesinde ishlemesi
+istediyimiz kodlar vardirsa bunlari yerine yetiren funksiyalardir. Funksiyalar hazir ve istifadechi terefinden yaradilaraq iki temel hisseye ayrilir.
+Istifadechi terefinden yaradilan funksiya parametrli veya parametrsiz olmalidir. 
+Parametrsiz funksiyalar hech bir parametr yazilmadan funksiyada yazilan emirleri yerine yetirilmesi ile ishleyen bir funksiyadir.
+Parametrli funksiyalar olmasinin sebebi tesevvur edek bize iki reqem verilir ve biz bu reqemleri toplamasi uchun bir funksiya yazmaliq, bunun uchun pareametrli
+funksiyalar ishimize yarayir. Parametrli funksiyalar teyin edildikde funksiya moterezesinin ichinde iki parametr verilir ve funksiyanin kod blokunda bu iki 
+parametri bir biri ile toplayib cavabini qaytaririq, bu baximdan parametrli funksiyalar chox elverishlidir. 
+ 
